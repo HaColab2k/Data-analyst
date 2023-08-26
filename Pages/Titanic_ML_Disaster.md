@@ -5,8 +5,9 @@
 This is a Kaggle competition for those who are passion about data analyst, data science, etc. The topic of this challenge is about [the sinking of the Titanic](https://en.wikipedia.org/wiki/Sinking_of_the_Titanic) is one of the most infamous shipwrecks in history.
 ## Table of contents
 - [Overview](#overview)
-- [Dataset description and features classification](#Dataset-description-and-features-classification)
+- [Dataset description](#Dataset-description-and-features-classification)
 - [Features classification](#Features-classification)
+- [Reference](#Reference)
 ## Overview
 In this competition, I used [Kaggle's API](https://www.kaggle.com/docs/api) to download datasets which are unzipped by using Zipfile and Os modules then I used Numpy, Pandas for numerical computations, data manipulation, and analysis. Finally, I used binary classification technique of machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
 ## Dataset description
@@ -38,3 +39,6 @@ Mix types of data: Ticket, Cabin
 Contain Error/Typo: Name
 Blank or Null: Cabin > Age > Embarked
 Various Data Type: String, Int, Float
+
+## Reference
+Will Cukierski. (2012). Titanic - Machine Learning from Disaster. Kaggle. https://kaggle.com/competitions/titanic
