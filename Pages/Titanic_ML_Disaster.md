@@ -11,7 +11,7 @@ This is a Kaggle competition for those who are passion about data analyst, data 
 ## Overview
 In this competition, I used [Kaggle's API](https://www.kaggle.com/docs/api) to download datasets which are unzipped by using Zipfile and Os modules then I used Numpy, Pandas for numerical computations, data manipulation, and analysis. Finally, I used binary classification technique of machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
 ## Dataset description
-The [data](https://www.kaggle.com/competitions/titanic/data) has been split into two groups:
+The [data](./Projects/.kaggle) has been split into two groups:
 -training set (train.csv)
 -test set (test.csv)
 -example(gender_submission.csv)
