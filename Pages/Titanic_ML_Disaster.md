@@ -19,26 +19,26 @@ I used training set to train the machine learning models and test set to estimat
 ### Data dictionary
 ![image](https://github.com/HaColab2k/Data-analyst/assets/127838132/3eddd888-45cf-4db1-8f2d-59f4e3af6407)
 ### Variable Notes
-pclass: A proxy for socio-economic status (SES)
+-pclass: A proxy for socio-economic status (SES)
   1st = Upper
   2nd = Middle
   3rd = Lower
-age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
-sibsp: The dataset defines family relations in this way...
+-age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+-sibsp: The dataset defines family relations in this way...
   Sibling = brother, sister, stepbrother, stepsister
   Spouse = husband, wife (mistresses and fiancés were ignored)
-parch: The dataset defines family relations in this way...
+-parch: The dataset defines family relations in this way...
   Parent = mother, father
   Child = daughter, son, stepdaughter, stepson
   Some children travelled only with a nanny, therefore parch=0 for them.
 
 ## Features classification
-Categorical: Survived, Sex, Embarked, Pclass(ordinal), SibSp, Parch
-Numerical: Age(continuous), Fare(discrete)
-Mix types of data: Ticket, Cabin
-Contain Error/Typo: Name
-Blank or Null: Cabin > Age > Embarked
-Various Data Type: String, Int, Float
+-Categorical: Survived, Sex, Embarked, Pclass(ordinal), SibSp, Parch
+-Numerical: Age(continuous), Fare(discrete)
+-Mix types of data: Ticket, Cabin
+-Contain Error/Typo: Name
+-Blank or Null: Cabin > Age > Embarked
+-Various Data Type: String, Int, Float
 
 ## Reference
 Will Cukierski. (2012). Titanic - Machine Learning from Disaster. Kaggle. https://kaggle.com/competitions/titanic
