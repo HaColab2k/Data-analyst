@@ -18,8 +18,7 @@ The [data](https://github.com/HaColab2k/Data-analyst/tree/main/Projects/.kaggle)
 - example(gender_submission.csv)
 I used training set to train the machine learning models and test set to estimate the models. In addition, gender_submission.csv is a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
 
-`Data dictionary`
-
+Data dictionary
 ![image](https://github.com/HaColab2k/Data-analyst/assets/127838132/3eddd888-45cf-4db1-8f2d-59f4e3af6407)
 
 ## Data preparing
